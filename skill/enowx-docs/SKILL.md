@@ -1,6 +1,7 @@
 ---
 name: enowx-docs
-description: This skill should be used when the user asks how to use the enowX AI gateway — its OpenAI/Anthropic-compatible inference API, provider accounts, gateway API keys, proxy pool, cloud sync, OTP numbers, the Skill registry, or any enowX endpoint. It explains how to discover the live, machine-readable API catalog and how each area works.
+version: 1.1.0
+description: This skill should be used when the user asks how to use the enowX AI gateway — its OpenAI/Anthropic-compatible inference API, provider accounts, gateway API keys, proxy pool, cloud sync, OTP numbers, the Skill registry, or any enowX endpoint. It explains how to discover the live, machine-readable API catalog and how each area works, and ships a full endpoint reference.
 ---
 
 # enowX Docs
@@ -78,10 +79,19 @@ params; this is the map:
 - **Skills** — the community Skill registry (see `references/skills.md`).
 - **System** — gateway info, debug, and local file/terminal tools (loopback).
 
+## Full endpoint reference
+
+Every endpoint (method, path, description, params) for all groups above is in
+**`references/api-reference.md`** — a full snapshot of the catalog. Read it to
+answer specific "what's the endpoint / what params" questions without a network
+call. Re-fetch `GET /api/docs` when the running version might differ.
+
 ## How to help
 
-1. Fetch `GET /api/docs` and read the relevant group.
+1. Check `references/api-reference.md` (or fetch `GET /api/docs`) and read the
+   relevant group.
 2. Point the user at the exact `method + path` and its params.
 3. For inference, remind them the `model` id chooses the provider, and about the
    Bearer-key rule.
-4. For deeper topics, read the matching file in `references/`.
+4. For deeper topics, read the matching file in `references/` (`otp.md`,
+   `skills.md`).
