@@ -1,0 +1,14 @@
+{
+  "generated_at": "",
+  "items": [
+    {
+      "kind": "skill",
+      "slug": "multi-brain",
+      "name": "Multi-Brain",
+      "description": "Persistent multi-agent memory layout for Claude skills.",
+      "author": "enowdev",
+      "version": "1.0.0",
+      "path": "skill/multi-brain"
+    }
+  ]
+}

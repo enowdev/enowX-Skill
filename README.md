@@ -1,33 +1,24 @@
-# enowX Skill
+# enowX Skill & MCP Registry
 
-Curated skill library for Codex-style agents.
+Community registry of **Skills** and **MCP servers** for [enowX](https://enowxlabs.com),
+uploaded and shared by the enowX community.
 
-Each skill lives in its own folder and should include:
-- `SKILL.md` as the skill entrypoint
-- `README.md` with usage guidance
-- Optional `assets/`, `references/`, and `scripts/` folders
+- **`skill/<slug>/`** — Claude-style skills (SKILL.md + assets/references).
+- **`mcp/<slug>/`** — MCP server bundles.
+- **`registry.json`** — machine-readable index of every item.
 
-## Available Skills
+## Publishing
 
-- [`multi-brain`](./multi-brain/README.md) - Two-level shared memory and handoff system for multi-agent workflows
+Upload from the **MCP & Skill** app inside enowX. Every upload is scanned before
+it's published. Bundles are committed here on the author's behalf; the author is
+recorded in each item's `manifest.json`.
 
-## Structure
+## Installing
 
-```text
-enowX Skill/
-├── README.md
-└── multi-brain/
-    ├── README.md
-    ├── SKILL.md
-    ├── assets/
-    └── references/
-```
+Use the enowX CLI (`enx`) — installer command coming soon. Each item is
+downloadable from `skill/<slug>/bundle.zip` or `mcp/<slug>/bundle.zip`.
 
-## Usage
+---
 
-Browse into a skill folder to review its `README.md` and `SKILL.md`.
-
-When publishing new skills to this library:
-- Keep each skill self-contained
-- Add a dedicated `README.md` per skill
-- Prefer English for reusable public documentation
+_Contributions are community-submitted. Report abuse in the app; maintainers can
+remove items._
