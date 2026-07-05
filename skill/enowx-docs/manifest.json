@@ -1,0 +1,10 @@
+{
+  "author": "! 恩诺.",
+  "description": "This skill should be used when the user asks how to use the enowX AI gateway — its OpenAI/Anthropic-compatible inference API, provider accounts, gateway API keys, proxy pool, cloud sync, OTP numbers, the Skill registry, or any enowX endpoint. It explains how to discover the live, machine-readable API catalog and how each area works.",
+  "kind": "skill",
+  "name": "enowx-docs",
+  "published_at": "2026-07-05T16:36:01Z",
+  "sha256": "51d5db4c3cf82a9eaf23b8f1cf31cecd0acbd62bcc15554eacb1162760f35f69",
+  "slug": "enowx-docs",
+  "version": "1.0.0"
+}
