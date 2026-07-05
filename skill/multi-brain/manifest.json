@@ -3,7 +3,7 @@
   "description": "This skill should be used when work needs to be shared or remembered across Claude Code, OpenCode, Codex, or other agents through a two-level memory index in `.multibrain/session.md`, named sub-index files in `.multibrain/indexes/`, and selective deep context files in `.multibrain/context/`.",
   "kind": "skill",
   "name": "multi-brain",
-  "published_at": "2026-07-05T16:18:23Z",
+  "published_at": "2026-07-05T17:00:57Z",
   "sha256": "6c7a3bf01a64b3edf4a16431298f7bfb4dd7d1a9d9df7a38bdfa7dfecca89df8",
   "slug": "multi-brain",
   "version": "1.0.0"
