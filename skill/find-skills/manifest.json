@@ -1,0 +1,10 @@
+{
+  "author": "voidnullz",
+  "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+  "kind": "skill",
+  "name": "find-skills",
+  "published_at": "2026-07-16T02:13:30Z",
+  "sha256": "d31e234f0c90694a670222cdd1dafa853e051d7066beda389f1097c22dadd461",
+  "slug": "find-skills",
+  "version": "1.0.0"
+}
