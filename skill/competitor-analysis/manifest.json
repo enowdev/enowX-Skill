@@ -1,0 +1,10 @@
+{
+  "author": "voidnullz",
+  "description": "Conduct full competitor strategy breakdowns across SEO, ads, social, email, pricing, and positioning. Use when the user asks to analyze competitors, benchmark against rivals, understand competitive landscape, find competitor weaknesses, or build a competitive matrix. Trigger phrases include \"competitor analysis\", \"competitive analysis\", \"who are my competitors\", \"competitor research\", \"competitive landscape\", \"benchmark competitors\", \"competitor ads\", \"competitor SEO\", \"competitor pricing\", \"SWOT analysis\", \"competitive matrix\".",
+  "kind": "skill",
+  "name": "competitor-analysis",
+  "published_at": "2026-07-16T02:14:43Z",
+  "sha256": "fa76a27db021fe92dc8f12e957c2c56dbe292d8eb54bc2dd02ffe8d26c11c116",
+  "slug": "competitor-analysis",
+  "version": "1.0.0"
+}
