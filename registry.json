@@ -1,14 +1,59 @@
 {
-  "generated_at": "",
+  "generated_at": "2026-07-19T23:44:05Z",
   "items": [
     {
       "kind": "skill",
+      "slug": "competitor-analysis",
+      "name": "competitor-analysis",
+      "description": "Conduct full competitor strategy breakdowns across SEO, ads, social, email, pricing, and positioning. Use when the user asks to analyze competitors, benchmark against rivals, understand competitive landscape, find competitor weaknesses, or build a competitive matrix. Trigger phrases include \"competitor analysis\", \"competitive analysis\", \"who are my competitors\", \"competitor research\", \"competitive landscape\", \"benchmark competitors\", \"competitor ads\", \"competitor SEO\", \"competitor pricing\", \"SWOT analysis\", \"competitive matrix\".",
+      "author": "voidnullz",
+      "version": "1.0.0",
+      "path": "skill/competitor-analysis"
+    },
+    {
+      "kind": "skill",
+      "slug": "enowx-docs",
+      "name": "enowx-docs",
+      "description": "This skill should be used when the user asks how to use the enowX AI gateway - its OpenAI/Anthropic-compatible inference API, provider accounts, gateway API keys, proxy pool, cloud sync, OTP numbers, the Skill registry, or any enowX endpoint. It explains how to discover the live, machine-readable API catalog and how each area works, and ships a full endpoint reference.",
+      "author": "! 恩诺.",
+      "version": "1.1.0",
+      "path": "skill/enowx-docs"
+    },
+    {
+      "kind": "skill",
+      "slug": "find-skills",
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "author": "voidnullz",
+      "version": "1.0.0",
+      "path": "skill/find-skills"
+    },
+    {
+      "kind": "skill",
       "slug": "multi-brain",
-      "name": "Multi-Brain",
-      "description": "Persistent multi-agent memory layout for Claude skills.",
-      "author": "enowdev",
+      "name": "multi-brain",
+      "description": "This skill should be used when work needs to be shared or remembered across Claude Code, OpenCode, Codex, or other agents through a two-level memory index in `.multibrain/session.md`, named sub-index files in `.multibrain/indexes/`, and selective deep context files in `.multibrain/context/`.",
+      "author": "! 恩诺.",
       "version": "1.0.0",
       "path": "skill/multi-brain"
+    },
+    {
+      "kind": "skill",
+      "slug": "skills",
+      "name": "skills",
+      "description": "",
+      "author": "voidnullz",
+      "version": "1.0.0",
+      "path": "skill/skills"
+    },
+    {
+      "kind": "skill",
+      "slug": "xquik-social-automation",
+      "name": "xquik-social-automation",
+      "description": "Use Xquik REST or MCP for public X search, analytics, monitoring, webhooks, and approval-gated publishing. Not affiliated with X Corp.",
+      "author": "Xquik",
+      "version": "1.0.0",
+      "path": "skill/xquik-social-automation"
     }
   ]
 }

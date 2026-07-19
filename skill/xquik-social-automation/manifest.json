@@ -1,0 +1,10 @@
+{
+  "author": "Xquik",
+  "description": "Use Xquik REST or MCP for public X search, analytics, monitoring, webhooks, and approval-gated publishing. Not affiliated with X Corp.",
+  "kind": "skill",
+  "name": "xquik-social-automation",
+  "published_at": "2026-07-19T23:44:05Z",
+  "sha256": "f522e9d7a7deec5abbb41a67d3e5221160fe9a68cd727d147fd7817807a4b32e",
+  "slug": "xquik-social-automation",
+  "version": "1.0.0"
+}
